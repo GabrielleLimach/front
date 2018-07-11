@@ -1,0 +1,12 @@
+.materiais{
+ float: left;
+ width: calc(100% - 300px);
+ margin-left: 20px;
+ padding: 20px;
+ background: pink;
+}
+.materiais::after, .materiais::before {
+    content: '';
+    display: table;
+    clear: both;
+}

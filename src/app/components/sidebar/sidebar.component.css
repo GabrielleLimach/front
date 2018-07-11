@@ -1,0 +1,18 @@
+.sidenav {
+    width: 300px;
+    background: #fafbfc;
+    padding: 30px;
+    float: left;
+  }
+  .sidenav li a {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+  }
+  .sidenav::after, .sidenav::before {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+

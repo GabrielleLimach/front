@@ -1,0 +1,19 @@
+ul{
+    padding: 0 auto;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.conteudo{
+    margin-top: 20px;
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
