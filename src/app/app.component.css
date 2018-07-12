@@ -5,14 +5,27 @@ ul{
     width: 100%;
     margin: 0 auto;
 }
-
 .conteudo{
-    margin-top: 20px;
+    margin:20px;
     width: 100%;
     overflow: auto;
-    margin-bottom: 20px;
 }
-
+.sid-nav{
+    float: left;
+    width: 250px;
+}
+.sid-nav::after, .sid-nav::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+.article{
+    float: left;
+    width: calc(100% - 250px);
+    margin: 0 auto;
+    padding: 20px;
+    background: darkgray;
+} 
 img{
     display: block;
     max-width: 100%;
