@@ -1,8 +1,10 @@
 .header {
     grid-area: header;
+    width: 100%;
+    margin: 0 auto;
     background: linear-gradient(135deg, #8844ee, #B07DFB);
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
-  }
+}
